@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-title {
+    padding-bottom: 5px;
+    margin: 2px auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    margin: 2px auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border: 1px solid black;
+}
+
+#popup {
+    border-radius: 9px;
+    background-color: lightsalmon;
+    width: 75px;
+    height: 30px;
+    border: 1px solid lightsalmon;
+}
+
+.btn {
+    border-radius: 9px;
+    background-color: lightsalmon;
+    width: 75px;
+    height: 30px;
+    border: 1px solid lightsalmon;
+}
